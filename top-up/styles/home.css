@@ -1,0 +1,116 @@
+ul .padding-nav {
+  padding-left: 30px;
+}
+
+/* nav */
+.logo:hover {
+  text-decoration: underline;
+}
+
+ul li .nav-link:hover {
+  text-decoration: underline;
+}
+
+.hero {
+    padding-top: 70px;
+}
+
+/* .btn-login {
+  width: 80px;
+  justify-items: center;
+  color: white;
+  border: #fff 1px solid;
+  padding: 5px 80px 5px 45px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-login:hover {
+  width: 80px;
+  color: black;
+  border: #fff 1px solid;
+  padding: 5px 80px 5px 45px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+} */
+
+/* Gaya default navbar (ketika berada di posisi header) */
+.nav-style {
+  transition: background-color 0.3s ease;
+  z-index: 9999;
+}
+/* nav end */
+
+/* game */
+.game-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.game-card-aja {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2); /* Latar belakang gelap transparan */
+    padding: 10px;
+    opacity: 0; /* Sembunyikan awalnya */
+    transform: translateY(100%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.game-card:hover .game-card-aja {
+    opacity: 1; /* Tampilkan saat hover */
+    transform: translateY(0);
+}
+
+.game-card:hover img {
+    transform: scale(1.1); /* Gambar sedikit membesar saat hover */
+}
+/* game end */
+
+/* cara pesan */
+.step {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.step-icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  font-size: 30px;
+  font-weight: bold;
+  color: #007bff;
+  margin: 10px;
+}
+/* cara pesan end */

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Up | Apad Store</title>
+
+    <link rel="stylesheet" href="styles/home.css" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-black">
+    <nav
+      class="navbar nav-style navbar-expand-lg w-100 position-fixed"
+      id="navbar"
+    >
+      <div class="container-fluid px-5 d-flex align-items-center">
+        <a class="navbar-brand text-white fs-3 logo" href="#">Apad Store</a>
+
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu navigasi -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#daftar_game">Daftar Game</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Packages">Cara Pesan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Travel-Plans"
+                >Travel Plans</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#Blog">Blog</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#Faq">Tourista AI</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section id="home">
+      <div class="hero">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://placehold.co/800x200/png"
+                class="d-block w-100"
+                alt="Slide 1"
+              />
+              <div class="carousel-caption d-block">
+                <p class="text-white">
+                  🔥 Promo Spesial! Diskon hingga 50% untuk semua top-up 🔥
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://placehold.co/800x200/png"
+                class="d-block w-100"
+                alt="Slide 2"
+              />
+              <div class="carousel-caption d-block">
+                <p class="text-white">
+                  ⚡ Top-up cepat dan terpercaya hanya di Apad Store! ⚡
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://placehold.co/800x200/png"
+                class="d-block w-100"
+                alt="Slide 3"
+              />
+              <div class="carousel-caption d-block">
+                <p class="text-white">
+                  🎮 Dapatkan bonus diamond setiap pembelian di atas Rp 100.000!
+                  🎮
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- Section Daftar Game -->
+    <section id="daftar_game" class="mb-4">
+      <div class="container">
+        <h2 class="text-center mb-4 text-white mt-4">Daftar Game</h2>
+        <div class="row gap-4 column-gap-md-0">
+          <!-- Game 1 -->
+          <div class="col-md-4">
+            <div class="game-card rounded-2 shadow-lg text-center">
+              <img
+                src="https://placehold.co/400x250/png?text=Mobile+Legends"
+                class="rounded-top-2 w-100"
+                alt="Mobile Legends"
+              />
+              <div class="game-card-aja">
+                <h5 class="card-title text-white">Mobile Legends</h5>
+                <p class="card-text text-white">
+                  Top up diamond dengan harga terbaik!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Game 2 -->
+          <div class="col-md-4">
+            <div class="game-card rounded-2 shadow-lg text-center">
+              <img
+                src="https://placehold.co/400x250/png?text=Free+Fire"
+                class="rounded-top-2 w-100"
+                alt="Free Fire"
+              />
+              <div class="game-card-aja">
+                <h5 class="card-title text-white">Free Fire</h5>
+                <p class="card-text text-white">
+                  Dapatkan promo dan bonus spesial!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Game 3 -->
+          <div class="col-md-4">
+            <div class="game-card rounded-2 shadow-lg text-center">
+              <img
+                src="https://placehold.co/400x250/png?text=PUBG+Mobile"
+                class="rounded-top-2 w-100"
+                alt="PUB Mobile"
+              />
+              <div class="game-card-aja">
+                <h5 class="card-title text-white">PUBG Mobile</h5>
+                <p class="card-text text-white">
+                  UC PUBG dengan harga terbaik!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Game 3 -->
+          <div class="col-md-4">
+            <div class="game-card rounded-2 shadow-lg text-center">
+              <img
+                src="https://placehold.co/400x250/png?text=Hok"
+                class="rounded-top-2 w-100"
+                alt="PUBG Mobile"
+              />
+              <div class="game-card-aja">
+                <h5 class="card-title text-white">PUBG Mobile</h5>
+                <p class="card-text text-white">
+                  UC PUBG dengan harga terbaik!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Game 3 -->
+          <div class="col-md-4">
+            <div class="game-card rounded-2 shadow-lg text-center">
+              <img
+                src="https://placehold.co/400x250/png?text=Codm"
+                class="card-img-top"
+                alt="PUBG Mobile"
+              />
+              <div class="game-card-aja">
+                <h5 class="card-title text-white">PUBG Mobile</h5>
+                <p class="card-text text-white">
+                  UC PUBG dengan harga terbaik!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Daftar Game END -->
+
+    <!-- cara pesan -->
+    <section id="cara-pesan" class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4 text-white">Cara Pesan</h2>
+
+        <div class="d-flex flex-wrap justify-content-center align-items-center">
+          <!-- Langkah 1 -->
+          <div class="step">
+            <div class="step-icon">
+              <i class="bi bi-controller"></i>
+            </div>
+            <h5>Pilih Game</h5>
+            <p>Pilih game yang ingin kamu top-up.</p>
+          </div>
+
+          <div class="arrow">→</div>
+
+          <!-- Langkah 2 -->
+          <div class="step">
+            <div class="step-icon">
+              <i class="bi bi-coin"></i>
+            </div>
+            <h5>Pilih Nominal</h5>
+            <p>Pilih jumlah diamond atau voucher yang diinginkan.</p>
+          </div>
+          
+          <div class="arrow">→</div>
+
+          <!-- Langkah 3 -->
+          <div class="step">
+            <div class="step-icon">
+              <i class="bi bi-check-circle"></i>
+            </div>
+            <h5>Isi Id dan Username</h5>
+            <p>Isi idensitas akun sesuai dengan akun kamu!</p>
+          </div>
+
+          <div class="arrow">→</div>
+
+          <!-- Langkah 4 -->
+          <div class="step">
+            <div class="step-icon">
+              <i class="bi bi-credit-card"></i>
+            </div>
+            <h5>Bayar</h5>
+            <p>Lakukan pembayaran dengan metode yang tersedia.</p>
+          </div>
+
+          <div class="arrow">→</div>
+
+          <!-- Langkah 5 -->
+          <div class="step">
+            <div class="step-icon">
+              <i class="bi bi-check-circle"></i>
+            </div>
+            <h5>Selesai</h5>
+            <p>Diamond atau voucher akan dikirim secara otomatis!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cara pesan end -->
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="scripts/home.js"></script>
+  </body>
+</html>
